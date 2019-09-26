@@ -34,6 +34,7 @@ ul {
 }
 
 /* --------------heading styles starts here-------------------- */
+
 .heading {
     background: #35424a;
     border-bottom: #e8491d 3px solid;
@@ -77,9 +78,11 @@ ul {
     color: #cccccc;
     font-weight: bold;
 }
+
 /*-------------------.heading styles ends here----------------------*/
 
 /*----------------main content styles starts here-----------------*/
+
 .maincontent {
     min-height: 400px;
     background: url('./Assets/images/ACMEimg4.png') no-repeat;
@@ -119,6 +122,7 @@ ul {
     height: 25px;
     width: 250px;
 }
+
 /* --------------subscribe styles ends here------------------ */
 
 /* --------------box style starts here----------------*/
@@ -147,7 +151,6 @@ ul {
     text-align: center;
 }
 
-
 /*------------------aboutus styles starts here----------------------------*/
 .aboutus-rightdesc#sidebar {
     float: right;
@@ -167,7 +170,6 @@ ul {
 /*-------------------aboutus styles ends here---------------- */
 
 /*--------------- Services styles-------------------- */
-
 ul#services li {
     list-style: none;
     padding: 20px;
@@ -176,37 +178,31 @@ ul#services li {
     background: #e6e6e6;
 }
 
-
-/* ----------------------Media Queries------------------ */
+/* ----------------------Media Query------------------ */
 @media(max-width: 768px) {
-    .heading nav,
+    .heading nav, 
     .heading .websitename, 
-    .aboutus-leftdesc#main-col,
-    .aboutus-rightdesc#sidebar,
-    .heading nav li,
-    .subscribe h1,
-    .subscribe form,
+    .aboutus-leftdesc#main-col, 
+    .aboutus-rightdesc#sidebar, 
+    .heading nav li, 
+    .subscribe h2, 
+    .subscribe form, 
     .boxes .box {
-      float: none;
-      text-align: center;
-      width: 100%
+        float: none;
+        text-align: center;
+        width: 100%
     }
-    
     .heading {
-     padding-bottom: 20px; 
+        padding-bottom: 20px;
     }
-    
     .maincontent h1 {
-      margin-top: 40px;
+        margin-top: 40px;
     }
-    
-    .subscribe button,  .quote button {
-      dislplay: block;
-      width: 100%;
+    .subscribe button, .quote button {
+        width: 100%;
     }
-    
-    .subscribe form input[type="email"], .quote input, .quote textarea{
-     width: 100%;
-     margin-bottom: 20px
+    .subscribe form input[type="email"], .quote input, .quote textarea {
+        width: 100%;
+        margin-bottom: 20px
     }
-  }
+}
