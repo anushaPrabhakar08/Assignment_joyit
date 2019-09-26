@@ -1,5 +1,5 @@
 body {
-    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    font: 0.938rem/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
@@ -17,41 +17,40 @@ ul {
 }
 
 .button_1 {
-    height: 38px;
+    height: 2.375rem;
     background: #e8491d;
     border: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     color: #ffffff;
 }
 
 .dark {
-    padding: 15px;
+    padding: 0.938rem;
     background: #35424a;
     color: #ffffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
 }
 
 /* --------------heading styles starts here-------------------- */
-
 .heading {
     background: #35424a;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: #e8491d 0.188rem solid;
     color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
+    padding-top: 1.875rem;
+    min-height: 4.375rem;
 }
 
 .heading a {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .heading li {
-    padding: 0 20px 0 20px;
+    padding: 0 1.25rem 0 1.25rem;
     /* float: left; */
     display: inline;
 }
@@ -66,7 +65,7 @@ ul {
 
 .heading nav {
     float: right;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .heading .highlight, .heading .active a {
@@ -78,32 +77,30 @@ ul {
     color: #cccccc;
     font-weight: bold;
 }
-
 /*-------------------.heading styles ends here----------------------*/
 
 /*----------------main content styles starts here-----------------*/
-
 .maincontent {
-    min-height: 400px;
+    min-height: 25rem;
     background: url('./Assets/images/ACMEimg4.png') no-repeat;
     text-align: center;
     color: #ffffff;
 }
 
 .maincontent h1 {
-    margin-top: 100px;
-    font-size: 55px;
-    margin-bottom: 10px;
+    margin-top: 6.25rem;
+    font-size: 3.438rem;
+    margin-bottom: 0.625rem;
 }
 
 .maincontent p {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 /*----------------main content styles ends here-----------------*/
 
 /* --------------subscribe styles starts here------------------ */
 .subscribe {
-    padding: 15px;
+    padding: 0.938rem;
     color: #ffffff;
     background: #35424a;
 }
@@ -114,38 +111,37 @@ ul {
 
 .subscribe form {
     float: right;
-    margin-top: 15px;
+    margin-top: 0.938rem;
 }
 
 .subscribe input[type="email"] {
-    padding: 4px;
-    height: 25px;
-    width: 250px;
+    padding: 0.25rem;
+    height: 1.563rem;
+    width: 15.625rem;
 }
-
 /* --------------subscribe styles ends here------------------ */
 
 /* --------------box style starts here----------------*/
 .boxes {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .boxes .box {
     float: left;
     text-align: center;
     width: 30%;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .boxes .box img {
-    width: 90px;
+    width: 5.625rem;
 }
 /* --------------box style ends here----------------*/
 
 /*-------------------- footer styles---------- */
 .footer {
-    padding: 20px;
-    margin-top: 20px;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
     color: #ffffff;
     background-color: #e8491d;
     text-align: center;
@@ -155,12 +151,12 @@ ul {
 .aboutus-rightdesc#sidebar {
     float: right;
     width: 30%;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .aboutus-rightdesc#sidebar .quote input, .aboutus-rightdesc#sidebar .quote textarea {
     width: 90%;
-    padding: 5px;
+    padding: 0.313rem;
 }
 
 .aboutus-leftdesc#main-col {
@@ -172,14 +168,14 @@ ul {
 /*--------------- Services styles-------------------- */
 ul#services li {
     list-style: none;
-    padding: 20px;
-    border: #cccccc solid 1px;
-    margin-bottom: 5px;
+    padding: 1.25rem;
+    border: #cccccc solid 0.063rem;
+    margin-bottom: 0.313rem;
     background: #e6e6e6;
 }
 
 /* ----------------------Media Query------------------ */
-@media(max-width: 768px) {
+@media(max-width: 48rem) {
     .heading nav, 
     .heading .websitename, 
     .aboutus-leftdesc#main-col, 
@@ -193,16 +189,16 @@ ul#services li {
         width: 100%
     }
     .heading {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
     }
     .maincontent h1 {
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
     .subscribe button, .quote button {
         width: 100%;
     }
     .subscribe form input[type="email"], .quote input, .quote textarea {
         width: 100%;
-        margin-bottom: 20px
+        margin-bottom: 1.25rem
     }
 }
