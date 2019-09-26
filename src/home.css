@@ -1,0 +1,212 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* --------------heading styles starts here-------------------- */
+.heading {
+    background: #35424a;
+    border-bottom: #e8491d 3px solid;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+.heading a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.heading li {
+    padding: 0 20px 0 20px;
+    /* float: left; */
+    display: inline;
+}
+
+.heading .websitename {
+    float: left;
+}
+
+.heading .websitename h1 {
+    margin: 0;
+}
+
+.heading nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.heading .highlight, .heading .active a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+.heading a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+/*-------------------.heading styles ends here----------------------*/
+
+/*----------------main content styles starts here-----------------*/
+.maincontent {
+    min-height: 400px;
+    background: url('./Assets/images/ACMEimg4.png') no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+
+.maincontent h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.maincontent p {
+    font-size: 20px;
+}
+/*----------------main content styles ends here-----------------*/
+
+/* --------------subscribe styles starts here------------------ */
+.subscribe {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+.subscribe h2 {
+    float: left;
+}
+
+.subscribe form {
+    float: right;
+    margin-top: 15px;
+}
+
+.subscribe input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/* --------------subscribe styles ends here------------------ */
+
+/* --------------box style starts here----------------*/
+.boxes {
+    margin-top: 20px;
+}
+
+.boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.boxes .box img {
+    width: 90px;
+}
+/* --------------box style ends here----------------*/
+
+/*-------------------- footer styles---------- */
+.footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+
+/*------------------aboutus styles starts here----------------------------*/
+.aboutus-rightdesc#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.aboutus-rightdesc#sidebar .quote input, .aboutus-rightdesc#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+.aboutus-leftdesc#main-col {
+    float: left;
+    width: 65%;
+}
+/*-------------------aboutus styles ends here---------------- */
+
+/*--------------- Services styles-------------------- */
+
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+
+/* ----------------------Media Queries------------------ */
+@media(max-width: 768px) {
+    .heading nav,
+    .heading .websitename, 
+    .aboutus-leftdesc#main-col,
+    .aboutus-rightdesc#sidebar,
+    .heading nav li,
+    .subscribe h1,
+    .subscribe form,
+    .boxes .box {
+      float: none;
+      text-align: center;
+      width: 100%
+    }
+    
+    .heading {
+     padding-bottom: 20px; 
+    }
+    
+    .maincontent h1 {
+      margin-top: 40px;
+    }
+    
+    .subscribe button,  .quote button {
+      dislplay: block;
+      width: 100%;
+    }
+    
+    .subscribe form input[type="email"], .quote input, .quote textarea{
+     width: 100%;
+     margin-bottom: 20px
+    }
+  }
